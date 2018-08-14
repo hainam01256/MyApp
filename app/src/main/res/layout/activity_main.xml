@@ -17,13 +17,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.2"
+        android:layout_weight="0.06"
         android:gravity="top"
         android:hint="@string/message" />
+
     <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.5"
+        android:layout_weight="0.23"
         android:gravity="top"
         android:hint="Email" />
 
@@ -39,4 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="Cancel" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
